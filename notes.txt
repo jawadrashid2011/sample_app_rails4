@@ -1,6 +1,8 @@
-Chapter 1
-Scaffolding http://www.youtube.com/watch?v=Gzj723LkRJY
-Books 
+# Ruby on Rails Tutorial: sample application Notes
+
+## Chapter 1
+* [Scaffolding](http://www.youtube.com/watch?v=Gzj723LkRJY)
+* Books 
 	Ruby/Rails
 		Beginning Ruby by Peter Cooper http://www.amazon.com/gp/product/1430223634
 		Try Ruby http://tryruby.org/
@@ -73,3 +75,5 @@ Chapter 5
 	Bootstrap page of LESS variables http://bootstrapdocs.com/v2.0.4/docs/less.html
 	Rails routing http://guides.rubyonrails.org/routing.html
 	
+Chapter 6
+	Authentication System Options http://ruby.railstutorial.org/chapters/modeling-users#sidebar-roll_your_own
