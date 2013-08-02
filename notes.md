@@ -2,8 +2,8 @@
 
 ## Chapter 1
 * [Scaffolding](http://www.youtube.com/watch?v=Gzj723LkRJY)
-* Books 
-	Ruby/Rails
+* ###Books 
+	** ####Ruby/Rails
 		Beginning Ruby by Peter Cooper http://www.amazon.com/gp/product/1430223634
 		Try Ruby http://tryruby.org/
 		Rails for Zombies http://railsforzombies.org/
