@@ -72,6 +72,7 @@
 5. [Rails guides on assets](http://guides.rubyonrails.org/asset_pipeline.html)
 6. [Railscast on coffeescript basics](http://railscasts.com/episodes/267-coffeescript-basics)
 7. [Bootstrap page of LESS variables](http://bootstrapdocs.com/v2.0.4/docs/less.html)
-8. [Rails routing](http://guides.rubyonrails.org/routting.html)	
+8. [Rails routing](http://guides.rubyonrails.org/routing.html)
+
 ## Chapter 6
 1. [Authentication System Options](http://ruby.railstutorial.org/chapters/modeling-users#sidebar-roll_your_own)
