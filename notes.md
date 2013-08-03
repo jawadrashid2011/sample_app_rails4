@@ -91,3 +91,4 @@
 3. [Factory Girl](http://github.com/thoughtbot/factory_girl)
 4. [Gravatar](http://gravatar.com/)
 5. [Authentication Token](http://stackoverflow.com/questions/941594/understand-rails-authenticity-token)
+6. [Heroku Page on SSL](http://devcenter.heroku.com/articles/ssl)
