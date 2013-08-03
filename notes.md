@@ -92,3 +92,14 @@
 4. [Gravatar](http://gravatar.com/)
 5. [Authentication Token](http://stackoverflow.com/questions/941594/understand-rails-authenticity-token)
 6. [Heroku Page on SSL](http://devcenter.heroku.com/articles/ssl)
+
+## Chapter 8
+1. [Cookie](http://en.wikipedia.org/wiki/HTTP_cookie )
+2. [Hijacked Sessions](http://en.wikipedia.org/wiki/Session_hijacking)
+3. [Cookies expire 20.years.from_now](http://ruby.railstutorial.org/chapters/sign-in-sign-out#sidebar-time_helpers)
+4. [||= or equals](http://ruby.railstutorial.org/chapters/sign-in-sign-out#sidebar-or_equals)
+5. [Cucumber](http://cukes.info/)
+6. [The RSpec Book by David Chelimsky](http://www.amazon.com/gp/product/1934356379)
+7. [Rails 3 in Action by Ryan Bigg and Yehuda Katz](http://www.amazon.com/gp/product/1935182277)
+8. [The Cucumber Book by Matt Wynne and Aslak Hellesøy](http://www.amazon.com/gp/product/1934356808)
+9. [Gherkin](https://github.com/cucumber/gherkin)
