@@ -33,4 +33,6 @@ SampleAppRails4::Application.configure do
 
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
+
+  ActiveModel::SecurePassword.min_cost = true
 end

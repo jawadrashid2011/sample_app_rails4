@@ -84,3 +84,10 @@
 7. [Cryptographic hash function](http://en.wikipedia.org/wiki/Cryptographic_hash_function)
 8. [Rspec let](http://ruby.railstutorial.org/chapters/modeling-users#sidebar-let)
 9. [How secure_password is implemented](https://github.com/rails/rails/blob/master/activemodel/lib/active_model/secure_password.rb)
+
+## Chapter 7
+1. [Rails Environments](http://ruby.railstutorial.org/chapters/sign-up#sidebar-rails_environments)
+2. [Rails verbs table for REST](http://ruby.railstutorial.org/chapters/sign-up#table-RESTful_users)
+3. [Factory Girl](http://github.com/thoughtbot/factory_girl)
+4. [Gravatar](http://gravatar.com/)
+5. [Authentication Token](http://stackoverflow.com/questions/941594/understand-rails-authenticity-token)
