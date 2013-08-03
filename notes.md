@@ -21,7 +21,7 @@
 
    - Editors
 	 * [Sublimt Text](http://www.sublimetext.com/2)
-	 * [Rails Tutorial Sublime Text](https://github.com/mhartl/rails_tutorial_sublime_text)
+	 * [Rails Tutorial Sublime Text](https://github.com/mhartl/rails_tutorial_sublime_text)	 
 
 3. Installation
 	- [Git](http://www.git-scm.com/book/en/Getting-Started-Installing-Git)
@@ -76,3 +76,11 @@
 
 ## Chapter 6
 1. [Authentication System Options](http://ruby.railstutorial.org/chapters/modeling-users#sidebar-roll_your_own)
+2. [Relational Databases](http://en.wikipedia.org/wiki/Relational_database)
+3. [Rails Database Rollback](http://ruby.railstutorial.org/chapters/static-pages#sidebar-undoing_things)
+4. [Rails migrations](http://guides.rubyonrails.org/migrations.html)
+5. [Rubalar Ruby Regular Expressions](http://www.rubular.com/)
+6. [Database Indices](http://ruby.railstutorial.org/chapters/modeling-users#sidebar-database_indices)
+7. [Cryptographic hash function](http://en.wikipedia.org/wiki/Cryptographic_hash_function)
+8. [Rspec let](http://ruby.railstutorial.org/chapters/modeling-users#sidebar-let)
+9. [How secure_password is implemented](https://github.com/rails/rails/blob/master/activemodel/lib/active_model/secure_password.rb)
