@@ -11,7 +11,7 @@ Then /^he should see an error message$/ do
 end
 
 Given /^the user has an account$/ do
-	@user = User.create(name: "Jawad Rashid", email: "jawadrashid2010@gmail.com",
+	@user = User.create(name: "Jawad Rashid", email: "jawad@gmail.com",
 						password: "jawadr", password_confirmation: "jawadr")
 end
 
