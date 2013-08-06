@@ -87,7 +87,7 @@ describe "User pages" do
 		describe "with valid information" do
 			before do
 				fill_in "Name",				with: "Jawad Rashid"
-				fill_in "Email",			with: "jawadrashid2010@gmail.com"
+				fill_in "Email",			with: "jawad@gmail.com"
 				fill_in "Password",			with: "jawadr"
 				fill_in "Confirmation",		with: "jawadr"
 			end
@@ -98,7 +98,7 @@ describe "User pages" do
 
 			describe "after saving the user" do
 				before { click_button submit }
-				let(:user) { User.find_by(email: "jawadrashid2010@gmail.com") }
+				let(:user) { User.find_by(email: "jawad@gmail.com") }
 
 				it { should have_link("Sign out") }
 				it { should have_title(user.name) }
