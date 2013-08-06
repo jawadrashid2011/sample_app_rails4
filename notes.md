@@ -103,3 +103,6 @@
 7. [Rails 3 in Action by Ryan Bigg and Yehuda Katz](http://www.amazon.com/gp/product/1935182277)
 8. [The Cucumber Book by Matt Wynne and Aslak Hellesøy](http://www.amazon.com/gp/product/1934356808)
 9. [Gherkin](https://github.com/cucumber/gherkin)
+
+## Chapter 9
+1. [Destroy without Javascript](http://railscasts.com/episodes/77-destroy-without-javascript)
