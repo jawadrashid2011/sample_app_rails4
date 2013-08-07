@@ -1,7 +1,8 @@
 class UsersController < ApplicationController
-  before_action :signed_in_user,  only: [:edit, :update, :index, :destroy]
-  before_action :correct_user,    only: [:edit, :update]   
-  before_action :admin_user,      only: :destroy
+  before_action :signed_in_user,              only: [:edit, :update, :index, :destroy]
+  before_action :correct_user,                only: [:edit, :update]   
+  before_action :admin_user,                  only: :destroy
+  before_action :redirect_signed_in_to_root,  only: [:new, :create]
 
   def new
   	@user = User.new
@@ -66,5 +67,15 @@ class UsersController < ApplicationController
 
     def admin_user
       redirect_to(root_url) unless current_user.admin?
+    end
+
+    def redirect_signed_in_to_root
+      if signed_in?
+        if params[:controller] == "users" && (params[:action] == "new" || params[:action] == "create")
+            puts "NOTICE"
+            flash[:notice] = "You don't need to create user."
+            redirect_to current_user
+        end
+      end
     end
 end

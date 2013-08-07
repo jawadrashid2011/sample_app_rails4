@@ -89,7 +89,7 @@ describe "User pages" do
 				fill_in "Name",				with: "Jawad Rashid"
 				fill_in "Email",			with: "jawad@gmail.com"
 				fill_in "Password",			with: "jawadr"
-				fill_in "Confirmation",		with: "jawadr"
+				fill_in "Confirm Password",	with: "jawadr"
 			end
 
 			it "should create a user" do
@@ -143,5 +143,14 @@ describe "User pages" do
 			specify { expect(user.reload.name).to  eq new_name }
 			specify { expect(user.reload.email).to eq new_email }
 		end
+
+		describe "forbidden attributes" do
+	      let(:params) do
+	        { user: { admin: true, password: user.password,
+	                  password_confirmation: user.password } }
+	      end
+	      before { patch user_path(user), params }
+	      specify { expect(user.reload).not_to be_admin }
+	    end
 	end
 end
